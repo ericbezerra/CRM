@@ -4,12 +4,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Index Default</title>
+<c:import url="WEB-INF/views/layouts/header.jsp"/>
 </head>
 <body>
-<c:import url="WEB-INF/views/layouts/cabecalho.jsp"/>
 	<h2>Hello Web System</h2>
-<c:import url="WEB-INF/views/layouts/rodape.jsp"/>
+	<a href="doLogin">Link</a>
 </body>
 </html>
