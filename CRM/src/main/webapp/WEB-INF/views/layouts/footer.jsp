@@ -13,3 +13,9 @@
          Both of these plugins are recommended to enhance the
          user experience. Slimscroll is required when using the
          fixed layout. -->
+
+
+<!-- ChartJS 1.0.1 -->
+<script src="resources/plugins/chartjs/Chart.min.js"></script>
+<!-- FastClick -->
+<script src="resources/plugins/fastclick/fastclick.min.js"></script>

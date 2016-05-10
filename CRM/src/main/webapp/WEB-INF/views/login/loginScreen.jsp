@@ -1,10 +1,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<c:import url="../layouts/header.jsp"/>
+<c:import url="../layouts/header.jsp" />
 </head>
 <body class="hold-transition login-page">
 	<div class="login-box">
@@ -14,6 +14,14 @@
 		<!-- /.login-logo -->
 		<div class="login-box-body">
 			<p class="login-box-msg">Entre com login e senha</p>
+
+			<!-- Verifica login -->
+			<c:if test="false">
+				<div class="alert alert-danger ">
+					<strong>Login</strong> ou <strong> Senha</strong> invalido(s)!
+				</div>
+			</c:if>
+			
 			<form action="enter" method="post">
 				<div class="form-group has-feedback">
 					<input type="text" class="form-control" placeholder="Login">
@@ -39,17 +47,17 @@
 		<!-- /.login-box-body -->
 	</div>
 	<!-- /.login-box -->
-	
-<c:import url="../layouts/footer.jsp"/>
-<script>
-	$(function() {
-		$('input').iCheck({
-			checkboxClass : 'icheckbox_square-blue',
-			radioClass : 'iradio_square-blue',
-			increaseArea : '20%' // optional
+
+	<c:import url="../layouts/footer.jsp" />
+	<script>
+		$(function() {
+			$('input').iCheck({
+				checkboxClass : 'icheckbox_square-blue',
+				radioClass : 'iradio_square-blue',
+				increaseArea : '20%' // optional
+			});
 		});
-	});
-</script>
+	</script>
 </body>
 </html>
 
