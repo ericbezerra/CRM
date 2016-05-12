@@ -209,28 +209,28 @@
 
 				<c:choose>
 					<c:when test="${param.page == 'agenda' }">
-						Agenda
+						<c:import url="../agenda/agenda.jsp" />
 					</c:when>
 					<c:when test="${param.page == 'vendas' }">
-						Vendas
+						<c:import url="../vendas/vendas.jsp" />
 					</c:when>
 					<c:when test="${param.page == 'prospeccao' }">
-						Prospecção
+						<c:import url="../prospeccao/prospeccao.jsp" />
 					</c:when>
 					<c:when test="${param.page == 'cliente' }">
-						Clientes
+						<c:import url="../clientes/clientes.jsp" />
 					</c:when>
 					<c:when test="${param.page == 'perfil' }">
-						Perfil
+						<c:import url="../perfil/perfil.jsp" />
 					</c:when>
 					<c:when test="${param.page == 'erro' }">
-						<c:import url="../error/erro.jsp"/>
+						<c:import url="../error/erro.jsp" />
 					</c:when>
 					<c:when test="${param.page == '404' }">
-						<c:import url="../error/404.jsp"/>
+						<c:import url="../error/404.jsp" />
 					</c:when>
 					<c:otherwise>
-						Bem Vindo
+						<c:import url="../home/home.jsp" />
 					</c:otherwise>
 				</c:choose>
 
@@ -244,7 +244,7 @@
 			<!-- To the right -->
 			<div class="pull-right hidden-xs">Versão 1.0</div>
 			<!-- Default to the left -->
-			<strong>Copyright &copy; 2016 <a href="#">Wancorp</a>.
+			<strong>Copyright &copy; 2016 <a href="#">Wan</a>.
 			</strong> Todos diretos reservados.
 		</footer>
 
