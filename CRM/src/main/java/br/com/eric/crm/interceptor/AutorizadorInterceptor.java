@@ -16,6 +16,7 @@ public class AutorizadorInterceptor extends HandlerInterceptorAdapter{
 			return true;
 		}
 		if (request.getSession().getAttribute("usuarioLogado") != null) {
+		
 			return true;
 		}
 
