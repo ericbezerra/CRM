@@ -5,7 +5,7 @@ public class Grupo {
 	private String cargo;
 	
 	public Grupo() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

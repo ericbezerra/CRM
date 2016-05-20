@@ -6,7 +6,7 @@ public class Estado {
 	private String nome;
 	
 	public Estado() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

@@ -9,7 +9,7 @@ public class Contato {
 	private String site;
 	
 	public Contato() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

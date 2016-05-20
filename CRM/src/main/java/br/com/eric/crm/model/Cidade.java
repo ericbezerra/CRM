@@ -7,7 +7,7 @@ public class Cidade {
 	private String nome;
 	
 	public Cidade() {
-		// TODO Auto-generated constructor stub
+
 	}
 	
 	

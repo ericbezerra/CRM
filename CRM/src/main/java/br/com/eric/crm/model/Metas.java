@@ -7,7 +7,7 @@ public class Metas {
 	private String servico;
 	
 	public Metas() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

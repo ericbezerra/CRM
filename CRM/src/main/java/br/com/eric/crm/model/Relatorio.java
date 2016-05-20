@@ -7,7 +7,7 @@ public class Relatorio {
 	private int idUsuario;
 	
 	public Relatorio() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

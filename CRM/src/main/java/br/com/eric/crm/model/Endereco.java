@@ -10,7 +10,7 @@ public class Endereco {
 	private int idCidade;
 	
 	public Endereco() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

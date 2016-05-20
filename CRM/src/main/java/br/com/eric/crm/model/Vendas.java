@@ -7,7 +7,7 @@ public class Vendas {
 	private int idUsuario;
 	
 	public Vendas() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

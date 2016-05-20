@@ -5,7 +5,7 @@ public class Situacao {
 	private int status;
 	
 	public Situacao() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

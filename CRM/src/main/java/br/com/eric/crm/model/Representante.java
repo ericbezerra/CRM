@@ -7,7 +7,7 @@ public class Representante {
 	private int idContato;
 	
 	public Representante() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

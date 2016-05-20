@@ -14,7 +14,7 @@ public class Usuario {
 	private int idCredenciais;
 
 	public Usuario() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Usuario(int id, String cpf, String nome, Date dataCadastro, Date dataAlteracao, int idGrupo, int idContato,

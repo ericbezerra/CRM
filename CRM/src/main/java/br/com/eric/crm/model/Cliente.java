@@ -14,30 +14,6 @@ public class Cliente {
 	private int idEndereco;
 	private int idContato;
 	private int idRepresentante;
-	
-	public Cliente() {
-		// TODO Auto-generated constructor stub
-	}
-	
-	
-	
-	public Cliente(int id, String cnpj, String razaoSocial, String nomeFantasia, String inscricaoEstadual,
-			String inscricaoMunicipal, Date dataCadastro, Date dataAlteracao, int idEndereco, int idContato,
-			int idRepresentante) {
-		super();
-		this.id = id;
-		this.cnpj = cnpj;
-		this.razaoSocial = razaoSocial;
-		this.nomeFantasia = nomeFantasia;
-		this.inscricaoEstadual = inscricaoEstadual;
-		this.inscricaoMunicipal = inscricaoMunicipal;
-		this.dataCadastro = dataCadastro;
-		this.dataAlteracao = dataAlteracao;
-		this.idEndereco = idEndereco;
-		this.idContato = idContato;
-		this.idRepresentante = idRepresentante;
-	}
-
 
 
 	public int getId() {

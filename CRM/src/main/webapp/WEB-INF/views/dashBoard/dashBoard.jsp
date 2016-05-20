@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -218,7 +219,7 @@
 						<c:import url="../prospeccao/prospeccao.jsp" />
 					</c:when>
 					<c:when test="${param.page == 'cliente' }">
-						<c:import url="../clientes/clientes.jsp" />
+						<c:import url="listaCliente" />
 					</c:when>
 					<c:when test="${param.page == 'perfil' }">
 						<c:import url="../perfil/perfil.jsp" />

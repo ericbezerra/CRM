@@ -7,7 +7,7 @@ public class Proposta {
 	private int idUsuario;
 	
 	public Proposta() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

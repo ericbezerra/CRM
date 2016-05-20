@@ -7,7 +7,7 @@ public class Contrato {
 	private int idUsuario;
 	
 	public Contrato() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	
